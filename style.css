@@ -186,5 +186,42 @@ a:hover {
 }
 
 .service {
+    display: flex;
     width: calc(100% / 3);
 }
+
+.service__img--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #a4a4a4;;
+}
+
+.service__img {
+    height: 32px;
+    width: 32px;
+    margin: 0 8px;
+}
+
+.service__description {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.service__description--title {
+    font-size: 24px;
+    color: black;
+    margin: 0 12px;
+}
+
+.service__description--para {
+    line-height: 1.5;
+    color: gray;
+    margin: 0 12px;
+}
+
+/*QUALITY WORK SECTION*/
