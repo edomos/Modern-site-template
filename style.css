@@ -31,6 +31,15 @@ a:hover {
     color: #6415ff
 }
 
+.white {
+    color: white;
+    font-weight: bold;
+}
+
+.purple {
+    color: #6415ff;
+}
+
 /* NAVBAR */
 
 .nav__container {
@@ -89,7 +98,61 @@ a:hover {
     padding: 12px 32px;
 }
 
-.white {
-    color: white;
-    font-weight: bold;
+/* HEADER CONTENT */
+
+.header__container {
+    display: flex;
+    padding: 48px 30px;
+}
+
+.header__description--wrapper {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header__title {
+    max-width: 360px;
+    margin-bottom: 24px;
+    font-size: 48px;
+}
+
+.header__title--para {
+    line-height: 1.5;
+    color: #808080;
+    text-align: left;
+    margin: 32px 0;
+    font-size: 18px;
+}
+
+.header__title--email {
+    height: 64px;
+    width: 400px;
+    border-radius: 24px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 54px;
+}
+
+.header__title--para-customers{
+    color: #808080;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.header__title--img {
+    max-width: 360px;
+    width: 100%;
+}
+
+.header__figure {
+    width: 60%;
+}
+
+/* FEATURES */
+
+.header__figure--img {
+    max-width: 600px;
+    height: auto;
 }
