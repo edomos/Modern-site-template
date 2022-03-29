@@ -46,7 +46,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4px 24px;
+    padding: 24px 24px 0px 24px;
 }
 
 .nav__logo--wrapper {
@@ -150,9 +150,9 @@ a:hover {
     width: 60%;
 }
 
-/* FEATURES */
-
 .header__figure--img {
     max-width: 600px;
     height: auto;
 }
+
+/* FEATURES */
