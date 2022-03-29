@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-.row {
-    display: flex;
-    justify-content: space-between;
+html {
+    scroll-behavior: smooth;
+}
+
+.row { 
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -14,4 +19,47 @@
 
 /* NAVBAR */
 
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
 
+.nav__logo--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.nav__logo--img {
+    height: 60px;
+    width: 60px;
+    margin: 0 12px 0 6px;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #424242;
+    font-size: 16px;
+}
+
+.nav__link {
+    list-style-type: none;
+    padding: 8px;
+}
+
+.login {
+    margin: 0 24px 0 48px;
+}
+
+.signup__btn {
+    color: white;
+    font-size: 16px;
+    background-color: #6415ff;
+    border-radius: 24px;
+    padding: 12px 32px;
+}
