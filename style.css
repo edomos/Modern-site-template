@@ -121,7 +121,7 @@ a:hover {
 .header__title--para {
     max-width: 540px;
     line-height: 1.5;
-    color: #808080;
+    color: #7C8BA1;
     text-align: left;
     margin: 32px 0;
     font-size: 20px;
@@ -137,7 +137,7 @@ a:hover {
 }
 
 .header__title--para-customers{
-    color: #808080;
+    color: #7C8BA1;
     text-align: left;
     margin-bottom: 16px;
 }
@@ -161,7 +161,7 @@ a:hover {
 .features__container {
     display: flex;
     flex-direction: column;
-    padding: 80px 0;
+    padding: 48px 30px;
 }
 
 .features__description--wrapper {
@@ -225,3 +225,33 @@ a:hover {
 }
 
 /*QUALITY WORK SECTION*/
+
+.qualitywork__container {
+    display: flex;
+    padding: 48px 30px;
+}
+
+.qualitywork__header--wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.qualitywork__header {
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #6415ff;
+    padding-bottom: 12px;
+}
+
+.learn__more--btn {
+    width: 40%;
+    font-size: 16px;
+    background-color: #6415ff;
+    border-radius: 24px;
+    padding: 12px 32px;
+    color: white;
+    font-weight: bold;
+}
