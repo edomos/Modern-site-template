@@ -143,7 +143,7 @@ a:hover {
 }
 
 .header__title--img {
-    max-width: 360px;
+    max-width: 100%;
     width: 100%;
 }
 
@@ -152,8 +152,8 @@ a:hover {
 }
 
 .header__figure--img {
-    max-width: 600px;
-    height: auto;
+    max-width: 100%;
+    min-width: 40%;
 }
 
 /* FEATURES */
@@ -238,6 +238,10 @@ a:hover {
     width: 50%;
 }
 
+.qualitywork__figure {
+    width: 50%;
+}
+
 .qualitywork__header {
     font-size: 16px;
     letter-spacing: 2px;
@@ -254,4 +258,67 @@ a:hover {
     padding: 12px 32px;
     color: white;
     font-weight: bold;
+}
+
+/*EASY TO GET STARTED SECTION */
+
+.steps__container {
+    display: flex;
+    padding: 48px 30px;
+}
+
+.figure__wrapper {
+    width: 50%;
+    display: flex;
+}
+
+.steps__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 24px;
+    width: 50%;
+}
+
+.steps__figure--img {
+    max-width: 100%;
+    min-width: 40%;
+    max-height: 100%;
+}
+
+.steps__title {
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #6415ff;
+    padding-bottom: 12px;
+}
+
+.steps__subtitle {
+    font-size: 48px;
+    padding: 24px 0px 36px 0px;
+}
+
+.step__number--wrapper {
+    display: flex;
+}
+
+.step__description--wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+}
+
+.step__number {
+    color: #CBD5E0;
+    font-size: 36px;
+}
+
+.step__description--para {
+    line-height: 1.5;
+    color: #7C8BA1;
+    text-align: left;
+    font-size: 16px;
+    padding: 12px 0;
 }
