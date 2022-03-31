@@ -613,7 +613,17 @@ a:hover {
     border: 0px solid;
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
     margin-bottom: 24px;
+    text-decoration: none;
 }    
+
+.buy__link {
+    text-decoration: none;
+}
+
+.buy__link:hover {
+    text-decoration: none;
+    color: #242424;
+}
 
 /* FOOTER SECTION */
 
