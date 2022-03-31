@@ -535,3 +535,70 @@ a:hover {
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
     margin-bottom: 24px;
 }    
+
+/* FOOTER SECTION */
+
+.row__footer{
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    width: 100%;
+    padding: 48px 30px;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 5);
+    align-items: center;
+    max-width: 140px;
+}
+
+.link__title {
+    color: #f7fafc;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 0;
+}
+
+.link__content {
+    color: #f7fafc;
+    font-size: 14px;
+    padding: 4px 0;
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 36px 0;
+}
+
+.footer__info--logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__info--img{
+    height: 40px;
+    width: 40px;
+    margin-right: 12px;
+}
+
+.footer__info--copyright {
+    color: #cbd5e0;
+}
+
+.link__title--anchor {
+    color: #f7fafc;
+    margin: 6px 0;
+}
+
+.link__title--anchor:hover {
+    color: #f7fafc;
+}
