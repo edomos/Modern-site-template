@@ -675,8 +675,8 @@ a:hover {
 }
 
 .footer__info--img{
-    height: 40px;
-    width: 40px;
+    height: 28px;
+    width: 28px;
     margin-right: 12px;
 }
 
@@ -691,6 +691,14 @@ a:hover {
 
 .link__title--anchor:hover {
     color: #f7fafc;
+}
+
+.row__footer i {
+    margin: 0 8px;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 72px;
+    background-color: white;
 }
 
 /* ANIMATIONS */
